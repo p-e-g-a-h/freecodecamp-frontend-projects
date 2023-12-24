@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Quote Machine</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body class="bg-light">
+  
+  <div class="container-fluid vh-100 d-flex flex-column justify-content-center align-items-center">
+    <div id="quote-box" class="p-5 col-md-6">
+      <h4 id="quote-text" class="text-center mb-3"></h4>
+      <p id="quote-author" class="text-end mb-5"></p>
+      <div class="row">
+        <a id="tweet-quote-btn" href="https://twitter.com/intent/tweet" target="_blank" class="col-auto text-decoration-none btn text-light">
+          <i class="bi bi-twitter"></i> Tweet
+        </a>
+        <button id="new-quote-btn" class="col-auto ms-auto btn text-light">New Quote</button>
+      </div>
+    </div>
+    <p class="mt-3">
+      <span class="text-secondary">by</span>
+      <a href="https://codepen.io/Pegah-Hedayati" target="_blank" class="text-decoration-none text-secondary">Pegah Hedayati</a>
+    </p>
+  </div>
+
+  <!-- scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./index.js"></script>
+
+</body>
+</html>
